@@ -94,7 +94,7 @@ function App() {
             </main>
 
             <footer className="py-4 text-center">
-                <p>Built with Azure AI Search + Azure OpenAI</p>
+                {/* <p>Built with Azure AI Search + Azure OpenAI</p> */}
             </footer>
 
             <GroundingFileView groundingFile={selectedFile} onClosed={() => setSelectedFile(null)} />
